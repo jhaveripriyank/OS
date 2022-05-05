@@ -1,0 +1,23 @@
+root@tryit-desired:~# ls                                                                
+root@tryit-desired:~# mkdir PRIYANK   (MAKE DIRECTORY)                                                  
+root@tryit-desired:~# ls               (CHECK IF ANY DIRECTORY IS PRESENT OR NOT)                                                 
+PRIYANK                                                                                 
+root@tryit-desired:~# mkdir Computer                                                    
+root@tryit-desired:~# ls                                                                
+Computer  PRIYANK                                                                       
+root@tryit-desired:~# cd Computer      (CHANGE DIRECTORY)                                                 
+root@tryit-desired:~/Computer# mkdir SE9                                                
+root@tryit-desired:~/Computer# ls                                                       
+SE9                                                                                     
+root@tryit-desired:~/Computer# touch f1     (MAKE FILE)                                            
+root@tryit-desired:~/Computer# ls                                                       
+SE9  f1                                                                                 
+root@tryit-desired:~/Computer# ls -l         (CHECK WHICH IS FILE AND WHICH IS DIRECTORY)                                           
+total 0                                                                                 
+drwxr-xr-x 1 root root 0 Jan 26 13:23 SE9    (DEFAULT           (DIFFERENT PERMISSIONS CAN ALSO BE GIVEN OR TAKEN)                               
+-rw-r--r-- 1 root root 0 Jan 26 13:26 f1     PERMISSIONS(read(r) write(w) execute(x))
+[root@localhost Computer]# chmod 750 f1
+[root@localhost Computer]# ls -l
+total 4
+-rwxr-x--- 1 root root  0 Jan 26 19:19 f1
+drwxr-xr-x 2 root root 37 Jan 26 19:19 SE9

@@ -1,0 +1,3 @@
+shellscript 
+insert esc+i
+close esc+: wq
